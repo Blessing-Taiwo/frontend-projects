@@ -1,0 +1,139 @@
+/* mobile screen */
+@media (max-width: 375px) {
+    .container {
+        width: 175px;
+        height: 350px;
+        display: block;
+    }
+    
+    .image {
+        width: 175px;
+        height: 200px;
+    }
+
+    .content {
+        width: 175px;
+    }
+}
+
+/* desktop screen */
+@media (max-width: 1440px) {
+    .container {
+        width: 800px;
+    }
+
+    .image {
+        width: 400px;
+    }
+}
+
+/* style */
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+/* container */
+.container {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    margin: 0 auto;
+    border-radius: 8px;
+    width: 550px;
+    height: 415px;
+}
+
+/* product image */
+.image {
+    width: 275px;
+    height: 415px;
+    border-radius: 8px 0 0 8px;
+}
+
+/* card content */
+.content {
+    position: absolute;
+    left: 50%;
+    width: 250px;
+    padding-left: 20px;
+}
+
+.title {
+    padding: 10px 0 0 0;
+    font-size: small;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+}
+
+.name {
+    line-height: 25px;
+    padding-right: 50px;
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.desc {
+    font-family: Montserrat, sans-serif;
+    padding-right: 30px;
+    font-size: 13px;
+    color: hsl(228, 12%, 48%);
+    line-height: 22px;
+}
+
+/* prices */
+.prices {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    padding: 10px;
+    font-size: 14px;
+}
+
+.new-price {
+    color: hsl(158, 36%, 37%);
+    font-family: Fraunces, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+/* button */
+button {
+    width: 85%;
+    height: 40px;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 7px;
+    color: hsl(0, 0%, 100%); 
+}
+span.add {
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+/* active state */
+button:hover {
+    background-color: hsl(212, 21%, 14%);
+    cursor: pointer;
+}
+
+
+/* footer */
+.attribution {
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(158, 36%, 37%);
+}
+.attribution a:hover {
+    color: hsl(212, 21%, 14%);
+}
+
